@@ -1,0 +1,94 @@
+body{
+    background-image: url(assets/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 10%;
+}
+
+.wapper button {
+    width: 35vh;
+    border-radius: 8px;
+    border: 3px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: rgba(222, 184, 135, 0.75);
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+  .wapper button:hover {
+    background-color: burlywood;
+    border-color: rgb(255, 200, 0);
+}
+.wapper button:focus,
+.wapper button:focus-visible {
+  outline: 5px auto -webkit-focus-ring-color;
+  border-color: rgb(255, 200, 0);
+}
+
+.wapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    gap: 20px;
+    transform: translate(-50%, -50%);   
+}
+
+.wapper input{
+    width: 34vh;
+    height: 4vh;
+    color: rgb(255, 200, 0);
+    border-radius: 8px;
+    border: 3px solid transparent;
+    background-color: rgba(10, 10, 10, 0.25);
+}
+
+.wapper input:hover {
+    border-color: rgb(255, 200, 0);
+}
+
+.wapper input:focus,
+.wapper input:focus-visible {
+  outline: 5px auto -webkit-focus-ring-color;
+  border-color: rgb(255, 200, 0);
+  background-color: rgba(10, 10, 10, 0.6);
+}
+
+.wapper h1{
+    font-size: 3rem;
+    color: bisque;
+    text-shadow: 3px 3px 3px black;
+}
+
+.footer{
+    display: inline;
+    justify-content: bottom;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    color: beige;
+    bottom: -5%;
+    left: 50%;  
+    transform: translate(-50%, -50%);
+}
+
+.para{
+    text-shadow: 3px 3px 3px black;
+    width: 90vw;
+}
+
+.container{
+    background-image: url(assets/backgroundGif.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
