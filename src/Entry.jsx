@@ -36,11 +36,11 @@ function Entry() {
 
 		<div
 			className="outer-container"
-			style={{
-				backgroundImage: `${
-					hypnosis ? "none" : "url('/src/assets/background.jpg')"
-				}`,
-			}}
+			// style={{
+			// 	backgroundImage: `${
+			// 		hypnosis ? "none" : "url('/src/assets/background.jpg')"
+			// 	}`,
+			// }}
 		>
 			{!hypnosis && (
 				<div className="wrapper">
