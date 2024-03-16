@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Hypnosis from "./Hypnosis";
 import Footer from "./Footer";
 
@@ -15,7 +15,7 @@ function Entry() {
 
 		showHypnosis((prevState) => !prevState);
 	}
-
+	
 	return (
 		// <div >
 		//     {
