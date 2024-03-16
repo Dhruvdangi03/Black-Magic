@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Mindless';
+    src: url('Mindless.woff2') format('woff2'),
+        url('Mindless.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

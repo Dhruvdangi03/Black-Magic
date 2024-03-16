@@ -1,0 +1,44 @@
+@font-face {
+	font-family: "Mindless";
+	src: url("/src/assets/fonts/Mindless.woff2") format("woff2"),
+		url("/src/assets/fonts/Mindless.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+:root {
+	--normal-font-size: 18px;
+	--body-font: "Mindless", sans-serif;
+	--font-regular: 400;
+}
+
+body {
+	font-family: var(--body-font);
+	font-size: var(--normal-font-size);
+	font-weight: var(--font-regular);
+}
+
+.container {
+	background-image: url(assets/backgroundGif.gif);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	padding-top: 4em;
+	text-align: center;
+	font-size: 2em;
+}
+
+.container h1{
+    background: rgb(213,12,50);
+    background: linear-gradient(135deg, rgba(213,12,50,1) 0%, rgba(246,175,19,1) 100%);
+    text-shadow: 16px 18px 4px rgba(0,0,0,0.5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

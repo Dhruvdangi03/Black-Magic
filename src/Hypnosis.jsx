@@ -1,13 +1,11 @@
-import React from 'react';
-
-function Hypnosis(props){
-    console.log("chal raha hai");
-
-    return(
-        <div className="container">
-            <h1>{props.data}</h1>
-        </div>
-    );
-}   
+import React from "react";
+import './hypnosis.css';
+function Hypnosis(props) {
+	return (
+		<div className="container">
+			<h1>Now you are under my control {props.data}!</h1>
+		</div>
+	);
+}
 
 export default Hypnosis;
