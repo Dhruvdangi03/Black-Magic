@@ -30,15 +30,15 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
-	padding-top: 4em;
+	padding-top: 2.5em;
 	text-align: center;
-	font-size: 2em;
+	font-size: 1.75em;
 }
 
 .container h1{
-    background: rgb(213,12,50);
-    background: linear-gradient(135deg, rgba(213,12,50,1) 0%, rgba(246,175,19,1) 100%);
-    text-shadow: 16px 18px 4px rgba(0,0,0,0.5);
+    background: rgb(255, 105, 105);
+    /* background: linear-gradient(135deg, rgba(213,12,50,1) 0%, rgba(246,175,19,1) 100%); */
+    text-shadow: 16px 16px 16px rgba(100, 100, 100, 0.85);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

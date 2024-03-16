@@ -1,5 +1,6 @@
 import React from "react";
 import './hypnosis.css';
+
 function Hypnosis(props) {
 	return (
 		<div className="container">
